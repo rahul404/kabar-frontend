@@ -64,8 +64,8 @@ export class SocialBar extends RkComponent {
       <View style={container}>
         <View style={section}>
           <RkButton rkType='clear' onPress={this.onLikeButtonPressed}>
-            <RkText rkType='awesome primary' style={icon}>{FontAwesome.heart}</RkText>
-            <RkText rkType='primary primary4' style={label}>Bookmark</RkText>
+            {/*<RkText rkType='awesome primary' style={icon}>{FontAwesome.heart}</RkText>*/}
+            {/*<RkText rkType='default default4' style={label}>Bookmark</RkText>*/}
           </RkButton>
         </View>
       </View>

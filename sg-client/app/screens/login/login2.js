@@ -26,7 +26,7 @@ export class LoginV2 extends React.Component {
     };
 
     onLoginButtonPressed = () => {
-        this.props.navigation.navigate('NewsFeeds');
+        this.props.navigation.navigate('Categories');
     };
 
     onSignUpButtonPressed = () => {

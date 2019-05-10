@@ -21,6 +21,7 @@ import {Articles4} from "./screens";
 import {Articles1} from "./screens";
 import {Articles2, Articles3} from "./screens/articles";
 import {Article} from "./screens";
+import Categories from "./screens/articles/categories";
 
 
 bootstrap();
@@ -34,14 +35,17 @@ const KittenApp = createStackNavigator({
     //     screen: Screens.SplashScreen,
     // },
 
+    Login: {
+        screen: LoginV2,
+    },
+    Categories: {
+        screen: Categories
+    },
     NewsFeeds: {
         screen: Articles2,
     },
     Article: {
         screen: Article
-    },
-    Login: {
-        screen: LoginV2,
     },
     // Home: {
     //     screen: createDrawerNavigator(
